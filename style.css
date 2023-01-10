@@ -65,14 +65,24 @@ h6 {
   padding: 10px;
 }
 
-.feature-section {
-  text-align: center;
-}
-
 .feature-text {
+  text-align: center;
   padding-top: 100px;
 }
 
 .feature-text p {
   font-style: italic;
+}
+
+.feature-cards {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card-icon {
+  width: 50px;
+  font-size: 40px;
 }
