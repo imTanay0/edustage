@@ -59,7 +59,7 @@ h6 {
 
 .button-1 {
   background-color: #002347;
-  color: #dbc609;
+  color: #fdc632;
   border-radius: 5%;
   border: none;
   padding: 10px;
@@ -70,8 +70,13 @@ h6 {
   padding-top: 100px;
 }
 
+.feature-text h1 {
+  font-weight: bold;
+}
+
 .feature-text p {
   font-style: italic;
+  font-weight: lighter;
 }
 
 .feature-cards {
@@ -85,4 +90,75 @@ h6 {
 .card-icon {
   width: 50px;
   font-size: 40px;
+  padding-left: 15px;
+}
+
+.card-text {
+  color: #072646;
+}
+
+.course-section {
+  padding-top: 150px;
+}
+
+.course-text {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.course-text h1 {
+  font-weight: bold;
+}
+
+.course-text p {
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.course-cards {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+}
+
+.course-cards .card-img-top {
+  width: 350px;
+  height: auto;
+}
+
+.course-price {
+  background-color: #fdc632;
+  color: #002347;
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  align-content: center;
+  padding-top: 15px;
+  border-radius: 100%;
+  position: relative;
+  left: 255px;
+  bottom: 45px;
+  margin-bottom: -45px;
+}
+
+.course-card-design {
+  background-color: #002347;
+  text-align: center;
+  color: #e9e6ea;
+  width: fit-content;
+  padding: 4px 15px;
+  font-size: 0.9rem;
+  /* margin-top: 25px; */
+  margin-bottom: 25px;
+}
+
+.course-section .card-title {
+  margin-bottom: 18px;
+}
+
+.card-body img {
+  width: 317px;
 }
